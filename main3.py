@@ -9,7 +9,7 @@ from kivy.core.window import Window
 from transformers import pipeline
 
 # Set your Hugging Face API key
-os.environ['HUGGINGFACE_API_KEY'] = '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'
+os.environ['HUGGINGFACE_API_KEY'] = '#ask for the API key'
 
 # Initialize the Hugging Face model
 generator = pipeline('text-generation', model='gpt2')
