@@ -8,10 +8,10 @@ from kivy.uix.button import Button
 from kivy.core.window import Window
 from transformers import pipeline
 
-# Set your Hugging Face API key
+
 os.environ['HUGGINGFACE_API_KEY'] = '#ask for the API key'
 
-# Initialize the Hugging Face model
+
 generator = pipeline('text-generation', model='gpt2')
 
 class JarvisApp(App):
