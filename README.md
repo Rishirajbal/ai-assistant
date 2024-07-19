@@ -32,7 +32,7 @@ This project utilizes various Python libraries and frameworks to create a genera
  Running the Application
 - To run the main application, use:
   ```bash
-  python main2.py
+  python main3.py
   ```
 
  Troubleshooting
